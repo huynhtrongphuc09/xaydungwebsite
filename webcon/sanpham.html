@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sản phẩm</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="../javascripts/script.js" defer></script>
+    </head>
+<body>
+<header class="site-header">
+    <div class="container navbar">
+        <a class="brand" href="../index.html">
+            <div class="brand-name">🌙 MoonCake</div>
+            <div class="brand-tagline">Trao yêu thương - Gửi trọn vị</div>
+        </a>
+        <nav>
+            <ul class="nav-menu">
+                <li>
+                    <a href="../index.html" target="_blank">Trang chủ</a>
+                </li>
+                <li>
+                    <a href="gioithieu.html" target="_blank">Giới thiệu</a>
+                </li>
+                <li>
+                    <a class="active" href="sanpham.html">Sản phẩm</a>
+                </li>
+                <li>
+                    <a href="khuyenmai.html" target="_blank">Khuyến mãi</a>
+                </li>
+                <li>
+                    <a href="lienhe.html" target="_blank">Liên hệ</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="cart-pill">🛒 Giỏ hàng: <span class="cart-count">0</span>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="page-banner">
+        <h1>Sản phẩm MoonCake</h1>
+        <p class="breadcrumb">Trang chủ / Sản phẩm</p>
+    </section>
+    <section class="section container">
+        <div class="section-heading">
+            <h2>Bộ sưu tập bánh Trung Thu</h2>
+            <p>Giá và mô tả dưới đây là dữ liệu mẫu, có thể thay đổi theo sản phẩm thật.</p>
+        </div>
+    <div class="product-grid">
+    <article class="product-card">
+        <img src="../images/banhthapcam.jpg" alt="Bánh thập cẩm">
+        <div class="product-info">
+            <h3>Bánh Thập Cẩm</h3>
+            <p>Vị truyền thống đậm đà</p>
+            <span class="price">150.000đ</span>
+            <button class="btn btn-red" onclick="addCart('Bánh Thập Cẩm')">Thêm vào giỏ</button>
+        </div>
+    </article>
+    <article class="product-card">
+        <img src="../images/banhdauxanh.jpg" alt="Bánh đậu xanh">
+        <div class="product-info">
+            <h3>Bánh Đậu Xanh</h3>
+            <p>Nhân mềm mịn, ngọt dịu</p>
+            <span class="price">120.000đ</span>
+            <button class="btn btn-red" onclick="addCart('Bánh Đậu Xanh')">Thêm vào giỏ</button>
+        </div>
+    </article>
+    <article class="product-card">
+        <img src="../images/banhtraxanh.jpg" alt="Bánh trà xanh">
+        <div class="product-info">
+            <h3>Bánh Trà Xanh</h3>
+            <p>Hương vị thanh mát</p><span class="price">130.000đ</span>
+            <button class="btn btn-red" onclick="addCart('Bánh Trà Xanh')">Thêm vào giỏ</button>
+        </div>
+    </article>
+    <article class="product-card">
+        <img src="../images/banhsennhuyen.jpg" alt="Bánh sen">
+        <div class="product-info">
+            <h3>Bánh Sen Nhuyễn</h3>
+            <p>Vị sen thơm dịu</p>
+            <span class="price">140.000đ</span>
+            <button class="btn btn-red" onclick="addCart('Bánh Sen Nhuyễn')">Thêm vào giỏ</button>
+        </div>
+    </article>
+    <article class="product-card">
+        <img src="../images/banhtrungmuoi.jpg" alt="Bánh trứng muối">
+        <div class="product-info">
+            <h3>Bánh Trứng Muối</h3><p>Béo thơm, đậm vị</p><span class="price">160.000đ</span>
+            <button class="btn btn-red" onclick="addCart('Bánh Trứng Muối')">Thêm vào giỏ</button>
+        </div>
+    </article>
+    <article class="product-card">
+        <img src="../images/banhkhoaimon.jpg" alt="Bánh khoai môn">
+        <div class="product-info">
+            <h3>Bánh Khoai Môn</h3>
+            <p>Thơm bùi, ngọt nhẹ</p>
+            <span class="price">125.000đ</span>
+            <button class="btn btn-red" onclick="addCart('Bánh Khoai Môn')">Thêm vào giỏ</button>
+        </div>
+    </article>
+    <article class="product-card">
+        <img src="../images/banhdeo.jpg" alt="Bánh hạt sen">
+        <div class="product-info">
+            <h3>Bánh Trung Thu Dẻo</h3>
+            <p>Hương dịu nhẹ, mềm mại</p>
+            <span class="price">135.000đ</span>
+            <button class="btn btn-red" onclick="addCart('Bánh Trung Thu Dẻo')">Thêm vào giỏ</button>
+        </div>
+    </article>
+    <article class="product-card">
+        <img src="../images/hopbanhtrungthu.jpg" alt="Hộp quà cao cấp">
+        <div class="product-info">
+            <h3>Hộp Quà Cao Cấp</h3>
+            <p>Hộp bánh dành tặng đối tác</p>
+            <span class="price">499.000đ</span>
+            <button class="btn btn-red" onclick="addCart('Hộp Quà Cao Cấp')">Thêm vào giỏ</button>
+        </div>
+    </article>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+    <div class="container footer-grid">
+        <div>
+            <h3>🌙 MoonCake</h3>
+            <p>Trao yêu thương - Gửi trọn vị.</p>
+        </div>
+    <div>
+            <h3>Khám phá</h3>
+            <a href="../index.html" target="_blank">Trang chủ</a>
+            <a href="sanpham.html">Sản phẩm</a>
+            <a href="gioithieu.html" target="_blank">Giới thiệu</a>
+    </div>
+    <div>
+            <h3>Hỗ trợ</h3>
+            <a href="khuyenmai.html" target="_blank">Khuyến mãi</a>
+            <a href="lienhe.html" target="_blank">Liên hệ</a>
+    </div>
+    <div>
+            <h3>Liên hệ</h3>
+            <p>Hotline: 0123 456 789</p>
+            <p>Email: mooncake@gmail.com</p>
+            <p>Địa chỉ: Xã An Phước,Đồng Tháp</p></div>
+    </div>
+<div class="copyright">© 2026 MoonCake.trongphuc.</div>
+</footer>
+</body>
+</html>
+

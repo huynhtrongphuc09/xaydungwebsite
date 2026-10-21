@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Liên hệ</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="../javascripts/script.js" defer></script>
+    </head>
+<body>
+    <header class="site-header">
+    <div class="container navbar">
+        <a class="brand" href="../index.html">
+            <div class="brand-name">🌙 MoonCake</div>
+            <div class="brand-tagline">Trao yêu thương - Gửi trọn vị</div>
+        </a>
+        <nav>
+            <ul class="nav-menu">
+                <li>
+                    <a href="../index.html" target="_blank">Trang chủ</a>
+                </li>
+                <li>
+                    <a href="gioithieu.html" target="_blank">Giới thiệu</a>
+                </li>
+                <li>
+                    <a href="sanpham.html" target="_blank">Sản phẩm</a>
+                </li>
+                <li>
+                    <a href="khuyenmai.html" target="_blank">Khuyến mãi</a>
+                </li>
+                <li>
+                    <a class="active" href="lienhe.html">Liên hệ</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="cart-pill">🛒 Giỏ hàng: <span class="cart-count">0</span>
+        </div>
+    </div>
+</header>
+    <main>
+        <section class="page-banner">
+            <h1>Liên hệ MoonCake</h1>
+            <p class="breadcrumb">Trang chủ / Liên hệ</p>
+        </section>
+    <section class="section container">
+        <div class="section-heading">
+            <h2>Chúng tôi luôn sẵn sàng hỗ trợ</h2>
+            <p>Gửi câu hỏi hoặc yêu cầu đặt bánh cho cửa hàng.</p>
+        </div>
+    <div class="contact-grid">
+    <div class="contact-info">
+        <h2>Thông tin cửa hàng</h2>
+        <p>📍 Địa chỉ: cập nhật địa chỉ cửa hàng của bạn</p>
+        <p>☎ Điện thoại: 0123 456 789</p>
+        <p>✉ Email: mooncake@gmail.com</p>
+        <p>🕒 Giờ hoạt động: 8:00 - 22:00</p>
+        <p>🎁 Nhận tư vấn hộp quà và đơn hàng số lượng lớn.</p>
+    </div>
+    <form class="contact-form" onsubmit="sendContact(event)">
+        <h2>Gửi tin nhắn</h2>
+    <label for="name">Họ và tên</label>
+        <input id="name" name="name" type="text" placeholder="Nhập họ tên của bạn" required>
+    <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="name@gmail.com" required>
+    <label for="phone">Số điện thoại</label>
+        <input id="phone" name="phone" type="tel" placeholder="Nhập số điện thoại">
+    <label for="subject">Chủ đề</label>
+        <input id="subject" name="subject" type="text" placeholder="Ví dụ: Đặt hộp quà Trung Thu" required>
+    <label for="message">Nội dung</label>
+        <textarea id="message" name="message" placeholder="Bạn cần MoonCake hỗ trợ điều gì?" required></textarea>
+    <button class="btn btn-red" type="submit">Gửi liên hệ →</button>
+    <p class="form-message" id="form-message" aria-live="polite"></p>
+    </form>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+    <div class="container footer-grid">
+        <div>
+            <h3>🌙 MoonCake</h3>
+            <p>Trao yêu thương - Gửi trọn vị.</p>
+        </div>
+    <div>
+            <h3>Khám phá</h3>
+            <a href="../index.html" target="_blank">Trang chủ</a>
+            <a href="sanpham.html" target="_blank">Sản phẩm</a>
+            <a href="gioithieu.html" target="_blank">Giới thiệu</a>
+    </div>
+    <div>
+            <h3>Hỗ trợ</h3>
+            <a href="khuyenmai.html" target="_blank">Khuyến mãi</a>
+            <a href="lienhe.html">Liên hệ</a>
+    </div>
+    <div>
+            <h3>Liên hệ</h3>
+            <p>Hotline: 0123 456 789</p>
+            <p>Email: mooncake@gmail.com</p>
+            <p>Địa chỉ: Xã An Phước,Đồng Tháp</p></div>
+    </div>
+<div class="copyright">© 2026 MoonCake.trongphuc.</div>
+</footer>
+</body></html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MoonCake</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="javascripts/script.js" defer></script>
+</head>
+<body>
+<header class="site-header"><div class="container navbar">
+  <a class="brand" href="webcon/gioithieu.html">
+    <div class="brand-name">🌙 MoonCake</div>
+    <div class="brand-tagline">Trao yêu thương - Gửi trọn vị</div></a>
+  <nav><ul class="nav-menu">
+    <li><a class="active" href="index.html">Trang chủ</a></li>
+    <li><a href="webcon/gioithieu.html" target="_blank">Giới thiệu</a></li>
+    <li><a href="webcon/sanpham.html" target="_blank">Sản Phẩm</a></li>
+    <li><a href="webcon/khuyenmai.html" target="_blank">Khuyến mãi</a></li>
+    <li><a href="webcon/lienhe.html" target="_blank">Liên hệ</a></li>
+  </ul></nav><div class="cart-pill">🛒 Giỏ hàng: <span class="cart-count">0</span></div>
+</div>
+</header>
+
+<main>
+<section class="hero"><div class="container hero-content">
+  <span class="eyebrow">Mùa trăng đoàn viên</span>
+  <h1>Bánh Trung Thu</h1><h2>Tinh hoa truyền thống</h2>
+  <p>Trao gửi yêu thương qua từng chiếc bánh. Hương vị thân quen, món quà ý nghĩa dành tặng gia đình và những người bạn trân quý.</p>
+  <a class="btn" href="webcon/gioithieu.html" target="_blank">Khám phá thêm →</a>
+</div></section>
+
+<section class="section section-soft"><div class="container service-grid">
+  <div class="service-item"><span class="service-icon">🚚</span><div><h3>Giao hàng tận nơi</h3><p>Đóng gói cẩn thận</p></div></div>
+  <div class="service-item"><span class="service-icon">🥮</span><div><h3>Đa dạng hương vị</h3><p>Truyền thống và hiện đại</p></div></div>
+  <div class="service-item"><span class="service-icon">🎁</span><div><h3>Hộp quà tinh tế</h3><p>Phù hợp biếu tặng</p></div></div>
+  <div class="service-item"><span class="service-icon">💌</span><div><h3>Hỗ trợ khách hàng</h3><p>Tư vấn tận tình</p></div></div>
+</div></section>
+
+<section class="section container">
+  <div class="section-heading"><h2>Sản phẩm nổi bật</h2><p>Chọn hương vị yêu thích cho mùa trăng này</p></div>
+  <div class="product-grid">
+    <article class="product-card"><img src="images/banhthapcam.jpg" alt="Bánh Trung Thu thập cẩm">
+      <div class="product-info">
+        <h3>Bánh Thập Cẩm</h3>
+        <p>Hương vị truyền thống đậm đà</p>
+        <span class="price">150.000đ</span>
+        <button class="btn btn-red" onclick="addCart('Bánh Thập Cẩm')">Thêm vào giỏ</button>
+      </div>
+    </article>
+    <article class="product-card"><img src="images/banhdauxanh.jpg" alt="Bánh nhân đậu xanh">
+      <div class="product-info">
+        <h3>Bánh Đậu Xanh</h3>
+        <p>Nhân mềm mịn, ngọt dịu</p>
+        <span class="price">120.000đ</span>
+        <button class="btn btn-red" onclick="addCart('Bánh Đậu Xanh')">Thêm vào giỏ</button>
+      </div>
+    </article>
+    <article class="product-card"><img src="images/banhtraxanh.jpg" alt="Bánh trà xanh">
+      <div class="product-info">
+        <h3>Bánh Trà Xanh</h3>
+        <p>Hương vị thanh mát</p>
+        <span class="price">130.000đ</span>
+        <button class="btn btn-red" onclick="addCart('Bánh Trà Xanh')">Thêm vào giỏ</button>
+      </div>
+    </article>
+    <article class="product-card"><img src="images/banhsennhuyen.jpg" alt="Bánh nhân sen">
+      <div class="product-info">
+        <h3>Bánh Sen Nhuyễn</h3>
+        <p>Vị sen thơm dịu, tinh tế</p>
+        <span class="price">140.000đ</span>
+        <button class="btn btn-red" onclick="addCart('Bánh Sen Nhuyễn')">Thêm vào giỏ</button>
+      </div>
+    </article>
+  </div>
+  <div style="text-align:center;margin-top:30px"><a class="btn" href="webcon/sanpham.html" target="_blank">Xem tất cả sản phẩm →</a></div>
+</section>
+<section class="section container">
+  <div class="promo-banner">
+    <div>
+      <h2>Ưu đãi mùa trăng</h2>
+      <p>Tham khảo chương trình ưu đãi và hộp quà đặc biệt từ MoonCake.</p>
+      <a class="btn" href="webcon/khuyenmai.html" target="_blank">Xem khuyến mãi →</a>
+    </div>
+    <div class="promo-art">🏮 🌕 🥮</div>
+  </div>
+</section>
+<section class="section section-soft">
+  <div class="container two-column">
+  <img class="rounded-image" src="images/logo.JPG" alt="Không khí mùa Trung Thu">
+  <div class="copy">
+    <h2>Câu chuyện MoonCake</h2>
+    <p>MoonCake mong muốn lưu giữ nét đẹp của Tết Trung Thu thông qua những chiếc bánh thơm ngon và những hộp quà chỉn chu.</p>
+    <p>Chúng tôi tin rằng một món quà nhỏ có thể gửi gắm lời chúc đoàn viên, bình an và hạnh phúc.</p>
+    <p>Ở Việt Nam, Tết Trung Thu còn gọi là Tết Trông Trăng hay Tết Thiếu Nhi. Chiếc bánh trung thu tròn đầy đại diện cho sự sum họp, là món quà để con cháu bày tỏ lòng hiếu kính với ông bà, cha mẹ.</p>
+    <a class="btn" href="webcon/gioithieu.html" target="_blank">Tìm hiểu về chúng tôi</a>
+  </div>
+</div></section>
+</main>
+<footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+          <h3>🌙 MoonCake</h3>
+          <p>Trao yêu thương - Gửi trọn vị.</p>
+      </div>
+      <div>
+          <h3>Khám phá</h3>
+          <a href="index.html">Trang chủ</a>
+          <a href="webcon/sanpham.html" target="_blank">Sản phẩm</a>
+          <a href="webcon/gioithieu.html" target="_blank">Giới thiệu</a>
+      </div>
+      <div>
+          <h3>Hỗ trợ</h3>
+          <a href="webcon/khuyenmai.html" target="_blank">Khuyến mãi</a>
+          <a href="webcon/lienhe.html" target="_blank">Liên hệ</a>
+      </div>
+      <div>
+          <h3>Liên hệ</h3>
+          <p>Hotline: 0123 456 789</p>
+          <p>Email: mooncake@gmail.com</p>
+          <p>Địa chỉ: Xã An Phước,Đồng Tháp</p></div>
+    </div>
+<div class="copyright">© 2026 MoonCake.trongphuc.</div>
+</footer>
+</body>
+</html>
